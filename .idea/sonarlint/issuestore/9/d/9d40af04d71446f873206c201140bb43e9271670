@@ -1,0 +1,14 @@
+
+€
+java:S1488="^Immediately return this expression instead of assigning it to the temporary variable "client".(ïìûÈÿÿÿÿÿ8Ö´Êš©1
+^
+java:S3457("AFormat specifiers should be used instead of string concatenation.(ö¶´ 8‘æ•©1
+c
+java:S3457-"AFormat specifiers should be used instead of string concatenation.(ŒØõ§ÿÿÿÿÿ8‘æ•©1
+L	java:S1067"+Replace this use of System.err by a logger.(»€¡Úùÿÿÿÿ8‘æ•©1
+™
+java:S1130:"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(¬Ù´…üÿÿÿÿ8Ş´Êš©1
+c
+java:S1075="ARefactor your code to get this URI from a customizable parameter.(ïìûÈÿÿÿÿÿ8‘æ•©1
+\
+java:S1128":Remove this unused import 'java.util.concurrent.Callable'.(¾×¶îûÿÿÿÿ8Éß™›©1

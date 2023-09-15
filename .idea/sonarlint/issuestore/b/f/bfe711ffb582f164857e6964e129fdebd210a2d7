@@ -1,0 +1,9 @@
+
+t
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(éüë¹8Ÿô¼›©1
+{
+java:S21425"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8¢ô¼›©1
+k
+java:S1128"IRemove this unused import 'org.java_websocket.handshake.ServerHandshake'.(¤çûÿÿÿÿ8£Œ½›©1
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8£Œ½›©1
