@@ -1,0 +1,5 @@
+#!/bin/bash
+export PORT=9000
+export JAVA_HOME=/var/lang/java8
+export PATH=$JAVA_HOME/bin:$PATH
+bash ./start_server.sh

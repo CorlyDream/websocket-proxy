@@ -15,6 +15,7 @@ import org.slf4j.LoggerFactory;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 流量转发
@@ -68,7 +69,7 @@ public class HttpProxyChannel {
     public static Channel getChannel(String uri, WebSocket webSocket) throws URISyntaxException {
         URI uriObj = new URI(uri);
         ChannelFuture future = proxyClientBootstrap.connect(uriObj.getHost(), uriObj.getPort());
-        future.awaitUninterruptibly();
+        future.awaitUninterruptibly(500, TimeUnit.MILLISECONDS);
         if (future.isSuccess()) {
             Channel channel = future.channel();
             channel.attr(Config.clientSocket).set(webSocket);

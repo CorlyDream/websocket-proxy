@@ -67,7 +67,8 @@ public class WebSocketProxyClient extends WebSocketClient {
     public static WebSocketProxyClient getWebSocket(String uri, Channel channel) throws URISyntaxException, InterruptedException {
         Map<String, String> header = new HashMap<>();
         header.put(Config.FORWARD_URI, uri);
-        WebSocketProxyClient client = new WebSocketProxyClient(new URI("ws://127.0.0.1:9000"), header, channel);
+        String americaUri = "ws://127.0.0.1:9000";
+        WebSocketProxyClient client = new WebSocketProxyClient(new URI(americaUri), header, channel);
         return client;
     }
 }
